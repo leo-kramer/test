@@ -1,8 +1,9 @@
+const base = window.location.pathname.replace(/\/$/, "")
 let template
 
 // Load template
 async function loadTemplate() {
-	const res = await fetch("/test/templates/landing.hbs")
+	const res = await fetch(`${base}/templates/landing.hbs`)
 	const source = await res.text()
 	template = Handlebars.compile(source)
 }
@@ -19,7 +20,7 @@ async function initI18n() {
 }
 
 async function loadLanguage(lang) {
-	const res = await fetch(`/test/locales/${lang}.json`)
+	const res = await fetch(`${base}/locales/${lang}.json`)
 	const translations = await res.json()
 
 	i18next.addResourceBundle(lang, "translation", translations, true, true)
