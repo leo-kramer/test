@@ -1,0 +1,10 @@
+{
+	"title": "Welcome",
+	"subtitle": "This is a modern static landing page",
+	"features": {
+		"title": "Features",
+		"fast": "Fast and lightweight",
+		"static": "Runs on GitHub Pages",
+		"multilang": "Multi-language support"
+	}
+}

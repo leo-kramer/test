@@ -1,0 +1,10 @@
+{
+	"title": "Bienvenido",
+	"subtitle": "Esta es una página de inicio estática moderna",
+	"features": {
+		"title": "Características",
+		"fast": "Rápido y ligero",
+		"static": "Funciona en GitHub Pages",
+		"multilang": "Soporte multi-idioma"
+	}
+}

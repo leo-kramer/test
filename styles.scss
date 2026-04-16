@@ -1,0 +1,28 @@
+$primary: #2563eb;
+
+body {
+	font-family: Arial, sans-serif;
+	background: #f3f4f6;
+}
+
+.container {
+	text-align: center;
+	margin-top: 80px;
+
+	h1 {
+		color: $primary;
+	}
+
+	.features {
+		margin-top: 30px;
+	}
+}
+
+button {
+	margin: 10px;
+	padding: 10px 16px;
+	border: none;
+	background: $primary;
+	color: white;
+	cursor: pointer;
+}
